@@ -3,7 +3,7 @@
 }
 
 .header{
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     background-color: greenyellow;
     margin: -10px;
 }
@@ -34,4 +34,37 @@
     align-items: flex-start;
     flex-flow: column wrap;
     max-width: 330px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.img-text .item{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.img-text .item p{
+    max-width: 130px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: hotpink;
+    margin: -10px;
 }
