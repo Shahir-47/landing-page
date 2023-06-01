@@ -111,9 +111,6 @@ h2 {
     max-width: 300px;
     text-align: center;
 }
-*{
-    border: 5px solid black;
-}
 
 .img-text .item img{
     border: 2px solid black;
