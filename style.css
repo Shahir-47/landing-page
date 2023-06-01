@@ -56,7 +56,7 @@ button:hover {
     justify-content: center;
     align-self: center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 100px;
 }
 
 .intro .intro-text{
@@ -97,7 +97,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 70px;
 }
 
 .img-text .item{
