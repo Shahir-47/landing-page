@@ -111,16 +111,19 @@ h2 {
     max-width: 300px;
     text-align: center;
 }
+*{
+    border: 5px solid black;
+}
 
 .img-text .item img{
     border: 2px solid black;
     border-radius: 30px;
-    width: 355px;
+    width: 250px;
     height: auto;
 }
 
 .img-text .item #big{
-    width: 299px;
+    width: 199px;
     height: auto;
 }
 
@@ -130,13 +133,14 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-top: 30px;
     padding-bottom: 80px;
     background-color: #7e1921;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 15px;
 }
 
 .info h2{
