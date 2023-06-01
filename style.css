@@ -24,6 +24,10 @@ body {
     gap: 16px;
 }
 
+.navigation #logo{
+    width: 100px;
+    height: auto;
+}
 .intro {
     display: flex;
     justify-content: center;
@@ -37,9 +41,14 @@ body {
     display: flex;
     align-items: flex-start;
     flex-flow: column wrap;
-    max-width: 330px;
+    max-width: 500px;
 }
 
+.intro img{
+    min-width: 0px;
+    min-height: auto;
+    flex-shrink: 1;
+}
 
 
 h2 {
@@ -61,9 +70,20 @@ h2 {
 }
 
 .img-text .item p{
-    max-width: 130px;
+    max-width: 300px;
     text-align: center;
 }
+
+.img-text .item img{
+    width: 355px;
+    height: auto;
+}
+
+.img-text .item #big{
+    width: 299px;
+    height: auto;
+}
+
 
 .info{
     display: flex;
@@ -89,7 +109,6 @@ h2 {
     margin-right: 16px;
     max-width: 800px;
     margin-bottom: 0px;
-    font-size: 32px;
 }
 
 .quote-box b{
