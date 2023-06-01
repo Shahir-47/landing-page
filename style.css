@@ -6,6 +6,8 @@ body {
 
 .header{
     padding-bottom: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
     background-color: #000009;
 }
 
